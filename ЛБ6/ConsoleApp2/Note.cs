@@ -19,7 +19,8 @@ namespace ConsoleApp2
 
         public virtual void Display()
         {
-            Console.WriteLine($"ФИО: {FullName}, Номер телефона: {PhoneNumber}");
+            Console.WriteLine($"ФИО: {FullName}, Номер телефона: {PhoneNumber}");//ещё
+
         }
     }
 }
