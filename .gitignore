@@ -1,41 +1,26 @@
-# Prerequisites
-*.d
+# Временные файлы ОС
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Логи и кэш
+*.log
+.cache/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Резервные копии
+*.bak
+*.backup
+*~
 
-# Linker files
-*.ilk
+# Системные файлы
+*.swp
+*.swo
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Для разных языков программирования
+__pycache__/
+*.pyc
+*.class
+node_modules/
+/target/
 *.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
